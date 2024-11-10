@@ -21,7 +21,7 @@ repository               : "YodelYang/yodelyang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/Deyang_Wang/ID_Photo.png"
+  avatar           : "ID_Photo.png"
   name             : "Deyang Wang"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
