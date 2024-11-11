@@ -32,6 +32,6 @@ This project developed an automated method for object removal in video streams, 
   Your browser does not support the video tag. Please download the video file <a href="{{ site.baseurl }}/assets/videos/project-video.mp4">Click here to download the video</a>.
 </video> -->
 
-#### Source Code
+### Source Code
 [Download Source Code (ZIP)](../files/Zero-Shot Driven Interactive Object Removal in Video Streams/源代码.zip)
 
