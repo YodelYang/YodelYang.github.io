@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-**Phone:** (+86) 18130768920  **Email:** [deyangwang@bjtu.edu.cn](mailto:deyangwang@bjtu.edu.cn)  **Website:** [deyangwang.github.io](https://yodelyang.github.io/)
+**Email:** [deyangwang@bjtu.edu.cn](mailto:deyangwang@bjtu.edu.cn) 
+**Phone:** (+86) 18130768920  
+**Website:** [deyangwang.github.io](https://yodelyang.github.io/)
 
 # Education
 
@@ -42,7 +44,7 @@ redirect_from:
 # Project Experience
 
 ## Research on Batch Inference Acceleration Method for Convolution on CPU Platforms  
-**University Innovation and Entrepreneurship Training Program** \hfill *April 2023 – May 2024*
+**University Innovation and Entrepreneurship Training Program** <div style="text-align: right;">*April 2023 – May 2024*</div>
 - Focused on improving the batch processing of convolution and pooling operations to reduce cache misses and improve CPU computational efficiency.
 - Designed and implemented a new **Batched Data Layout Optimization (BDLO)** scheme, which optimized data layout and transformed multi-matrix computations into single-matrix and kernel calculations, reducing memory accesses.
 - Integrated the BDLO rearrangement into other operators in batch processing (e.g., Batch Normalization and Pooling), reducing performance overhead from separate rearrangement steps.
@@ -51,14 +53,14 @@ redirect_from:
 - Related research paper submitted: **"BDLO: Batched-Data-Layout-Optimization Method for Batched Im2col-based Convolution on CPUs"**.
 
 ## Deployment and Optimization of Inference Engine on cDSP Platform  
-**Collaboration with NIO Inc.**  \hfill  *February 2023 – May 2024*  
+**Collaboration with NIO Inc.**  <div style="text-align: right;">*February 2023 – May 2024*</div>
 - Deployed deep neural network models on NIO's in-vehicle chips (cDSP module) for use in the vehicle's voice system, optimizing the model for over a **40% reduction in inference time**.
 - Analyzed the operators and architecture of the HiFi-GAN model, evaluating performance on different platforms using tools like ONNX.
 - Used and modified the open-source MACE mobile framework to deploy the HiFi-GAN model on Snapdragon DSP modules.
 - Quantified model weights to int8 and employed optimization techniques such as operator fusion, reducing inference time by **up to 1.5x** for Transformer models.
 
 ## Zero-shot Driven Interactive Video Stream Object Removal  
-**Professional Practice and Training Course Development Project**  \hfill  *June 2023 – August 2023*  
+**Professional Practice and Training Course Development Project**  <div style="text-align: right;"> *June 2023 – August 2023*</div>  
 - Developed an automated system for object removal and restoration in video streams, reducing manual intervention and ensuring natural restoration results.
 - Combined advanced **automatic segmentation (SAM), mask propagation (AOT), and video restoration (E2FGVI)** techniques into an efficient, automated pipeline for object removal and repair.
 - Demonstrated the effectiveness of the system through various experiments, showcasing superior performance across different video materials.
