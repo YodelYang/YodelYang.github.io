@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 **Phone:** (+86) 18130768920  
-**Email:** [deyangwang@bjtu.edu.cn](mailto:deyangwang@bjtu.edu.cn) 
+**Email:** [deyangwang@bjtu.edu.cn](mailto:deyangwang@bjtu.edu.cn)  
 **Website:** [deyangwang.github.io](https://yodelyang.github.io/)
 
 # Education
@@ -44,7 +44,7 @@ September 2025 (Expected) – June 2028 (Expected)
 # Project Experience
 
 ## Research on Batch Inference Acceleration Method for Convolution on CPU Platforms  
-**University Innovation and Entrepreneurship Training Program** 
+**University Innovation and Entrepreneurship Training Program**  
 April 2023 – May 2024
 - Focused on improving the batch processing of convolution and pooling operations to reduce cache misses and improve CPU computational efficiency.
 - Designed and implemented a new **Batched Data Layout Optimization (BDLO)** scheme, which optimized data layout and transformed multi-matrix computations into single-matrix and kernel calculations, reducing memory accesses.
