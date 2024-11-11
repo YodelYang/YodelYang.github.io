@@ -16,7 +16,6 @@ redirect_from:
 ## Beijing Jiaotong University | Undergraduate  
 **Bachelor of Engineering** in Computer Science and Technology, School of Computer Science and Technology  
 *September 2021 – June 2025 (Expected)*  
-&nbsp; \hfill  *September 2021 – June 2025 (Expected)*
 
 - **Weighted Average Score:** 87.1/100.0 (Top 25% of the major)
 - **Competition Awards:**
@@ -31,7 +30,7 @@ redirect_from:
 
 ## Beijing Jiaotong University | Graduate  
 **Master's in Artificial Intelligence** (Professional Master's Degree), School of Computer Science and Technology  
-&nbsp; \hfill  *September 2025 (Expected) – June 2028 (Expected)*
+*September 2025 (Expected) – June 2028 (Expected)*
 
 # Technical Skills
 
