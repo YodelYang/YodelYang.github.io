@@ -8,14 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "YodelYang / Site Title"
+title                    : "Wang, Deyang(YodelYang, 王德阳)"
 title_separator          : "-"
-name                     : &name "YodelYang"
-description              : &description "personal description"
+name                     : &name "Wang, Deyang(YodelYang, 王德阳)"
+description              : &description "This is the homepage of Deyang Wang"
 url                      : https://yodelyang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "YodelYang/yodelyang.github.io"
-theme                    : Monophase
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
