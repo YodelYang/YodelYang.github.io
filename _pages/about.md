@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# About Me
-
 Hi, I am **Wang Deyang**, a passionate and diligent student currently pursuing my Bachelor's degree in **Computer Science and Technology** at **Beijing Jiaotong University**. My academic interests lie at the intersection of **artificial intelligence**, **machine learning**, and **software development**, with a particular focus on **deep learning** and **embedded systems**.
 
 ## Education
