@@ -9,3 +9,5 @@ date: 2023-06-01
 ---
 
 This project developed an automated method for object removal in video streams, ensuring high-quality restoration aligned with user expectations. Utilizing **SAM, AOT, and E2FGVI** technologies in an end-to-end workflow, the project efficiently removed specified objects and restored videos with minimal manual intervention, providing a novel solution for video processing.
+
+
