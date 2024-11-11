@@ -7,9 +7,6 @@ date: 2024-11-11
 link: 'http://example.com/project-link'
 ---
 
-This project explores ...
-
-You can find the project's full details [here](http://example.com/project-link).
 
 ---
 
