@@ -6,8 +6,6 @@ permalink: /publication/2024-05-01-bdlo-cnn-cpu-optimization
 excerpt: "This research proposes a Batched-Data-Layout-Optimization (BDLO) method to enhance computational efficiency for batched convolutions in CNNs on CPU platforms, focusing on reducing reuse distances and minimizing memory accesses."
 date: 2024-05-01
 venue: 'NeurIPS 2024'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 citation: 'Zhao, H., Liu, X., Chen, R., Tang, C., Wang, D., & Xie, J. (2024). "BDLO: Batched-Data-Layout-Optimization for Enhanced CNN Batch Processing on CPUs." <i>NeurIPS 2024</i>.'
 ---
 
