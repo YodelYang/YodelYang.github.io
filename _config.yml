@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Wang, Deyang(YodelYang, 王德阳)"
+title                    : "Wang, Deyang (YodelYang, 王德阳)"
 title_separator          : "-"
-name                     : &name "Wang, Deyang(YodelYang, 王德阳)"
-description              : &description "This is the homepage of Deyang Wang"
+name                     : &name "Wang, Deyang (YodelYang, 王德阳)"
+description              : &description "This is the homepage of Deyang Wang."
 url                      : https://yodelyang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "YodelYang/yodelyang.github.io"
@@ -24,9 +24,9 @@ author:
   avatar           : "ID_Photo.png"
   name             : "Deyang Wang"
   pronouns         : # example: "she/her"  
-  bio              : # "Short biography for the left-hand sidebar"
+  bio              : "Master's student, AI, Beijing Jiaotong University"
   location         : "Beijing"
-  employer         : "Beijing Jiaotong University"
+  employer         : # "Beijing Jiaotong University"
   uri              : # URL
   email            : "21251224@bjtu.edu.cn" 
 
