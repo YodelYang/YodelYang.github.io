@@ -25,7 +25,7 @@ author:
   name             : "Deyang Wang"
   pronouns         : # example: "she/her"  
   bio              : "Master's student, AI, Beijing Jiaotong University"
-  location         : "Beijing"
+  location         : # "Beijing"
   employer         : # "Beijing Jiaotong University"
   uri              : # URL
   email            : "21251224@bjtu.edu.cn" 
