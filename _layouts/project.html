@@ -1,14 +1,35 @@
 ---
-layout: default
+layout: default  <!-- 或者使用你的主布局 -->
 ---
 
 <div class="project-content">
+  <!-- 项目标题 -->
   <h1>{{ page.title }}</h1>
-  <p>{{ page.date | date: "%B %d, %Y" }}</p>
+
+  <!-- 日期，格式化显示 -->
+  <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
+
+  <!-- 项目摘要 -->
+  {% if page.excerpt %}
+    <p><em>{{ page.excerpt }}</em></p>
+  {% endif %}
+
+  <!-- 项目描述内容 -->
   <div class="project-body">
     {{ content }}
   </div>
+
+  <!-- 外部链接，若存在 -->
   {% if page.link %}
     <p><a href="{{ page.link }}" target="_blank">查看项目详情</a></p>
+  {% endif %}
+
+  <!-- 自定义内容：可以添加图片、相关链接或附件等 -->
+  {% if page.images %}
+    <div class="project-images">
+      {% for image in page.images %}
+        <img src="{{ image }}" alt="Project Image">
+      {% endfor %}
+    </div>
   {% endif %}
 </div>
