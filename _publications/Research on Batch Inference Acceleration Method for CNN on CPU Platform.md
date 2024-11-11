@@ -1,5 +1,5 @@
 ---
-title: "BDLO: Batched-Data-Layout-Optimization for Enhanced CNN Batch Processing on CPUs" collection: publications
+title: "BDLO: Batched-Data-Layout-Optimization for Enhanced CNN Batch Processing on CPUs" 
 collection: publications
 category: conferences
 permalink: /publication/2024-05-01-bdlo-cnn-cpu-optimization
