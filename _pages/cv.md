@@ -11,6 +11,7 @@ redirect_from:
 
 **Phone:** (+86) 18130768920 **Email:** [deyangwang@bjtu.edu.cn](mailto:deyangwang@bjtu.edu.cn) **Website:** [deyangwang.github.io](https://yodelyang.github.io/)
 
+
 # Education
 
 ## Beijing Jiaotong University | Undergraduate  
@@ -32,12 +33,14 @@ September 2021 – June 2025 (Expected)
 **Master's in Artificial Intelligence** (Professional Master's Degree), School of Computer Science and Technology  
 September 2025 (Expected) – June 2028 (Expected)
 
+
 # Technical Skills
 
 - **Programming Languages:** Proficient in C/C++; Familiar with Python; Basic knowledge of Java
 - **Workflow Tools:** Proficient in Linux, Shell scripting, Git, and GitHub
 - **Languages:** CET-6: 509, CET-4: 621, IELTS: 6.5
 - **Technological Stack:** Libtorch, ONNX, Eigen, HTML, MySQL, Flask, Mace, Hexagon DSP, etc.
+
 
 # Project Experience
 
@@ -65,6 +68,7 @@ June 2023 – August 2023
 - Developed an automated system for object removal and restoration in video streams, reducing manual intervention and ensuring natural restoration results.
 - Combined advanced **automatic segmentation (SAM), mask propagation (AOT), and video restoration (E2FGVI)** techniques into an efficient, automated pipeline for object removal and repair.
 - Demonstrated the effectiveness of the system through various experiments, showcasing superior performance across different video materials.
+
 
 # Personal Summary
 
