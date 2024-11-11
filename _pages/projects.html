@@ -1,14 +1,12 @@
 ---
 layout: archive
-title: "Projects----------"
+title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
 
-
 {% include base_path %}
 
-<!-- New style rendering without categories -->
-{% for project in site.projects reversed %}
+{% for post in site.projects reversed %}
   {% include archive-single.html %}
 {% endfor %}
