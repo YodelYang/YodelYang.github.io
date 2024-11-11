@@ -9,9 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-**Phone:** (+86) 18130768920  
-**Email:** [deyangwang@bjtu.edu.cn](mailto:deyangwang@bjtu.edu.cn)  
-**Website:** [deyangwang.github.io](https://yodelyang.github.io/)
+**Phone:** (+86) 18130768920 **Email:** [deyangwang@bjtu.edu.cn](mailto:deyangwang@bjtu.edu.cn) **Website:** [deyangwang.github.io](https://yodelyang.github.io/)
 
 # Education
 
