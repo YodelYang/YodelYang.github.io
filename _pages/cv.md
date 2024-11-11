@@ -7,6 +7,7 @@ redirect_from:
   - /resume
 ---
 
+{% include base_path %}
 
 # Wang Deyang
 
@@ -76,3 +77,4 @@ redirect_from:
 - **Personality:** Optimistic and open-minded with a strong foundation in computer science and technology, excelling in self-driven problem-solving and effective team collaboration.
 - **Skills:** Familiar with Linux and essential development tools, with substantial project experience. Adept at applying technology to solve real-world problems.
 - **Research Interests:** In-depth knowledge in deep learning, computer vision, and model optimization, demonstrating strong learning capabilities to quickly master and apply new knowledge to projects.
+
