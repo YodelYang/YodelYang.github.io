@@ -9,15 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
-**Email:** [deyangwang@bjtu.edu.cn](mailto:deyangwang@bjtu.edu.cn) 
 **Phone:** (+86) 18130768920  
+**Email:** [deyangwang@bjtu.edu.cn](mailto:deyangwang@bjtu.edu.cn) 
 **Website:** [deyangwang.github.io](https://yodelyang.github.io/)
 
 # Education
 
 ## Beijing Jiaotong University | Undergraduate  
 **Bachelor of Engineering** in Computer Science and Technology, School of Computer Science and Technology  
-*September 2021 – June 2025 (Expected)*  
+September 2021 – June 2025 (Expected)
 
 - **Weighted Average Score:** 87.1/100.0 (Top 25% of the major)
 - **Competition Awards:**
@@ -32,7 +32,7 @@ redirect_from:
 
 ## Beijing Jiaotong University | Graduate  
 **Master's in Artificial Intelligence** (Professional Master's Degree), School of Computer Science and Technology  
-*September 2025 (Expected) – June 2028 (Expected)*
+September 2025 (Expected) – June 2028 (Expected)
 
 # Technical Skills
 
@@ -44,7 +44,8 @@ redirect_from:
 # Project Experience
 
 ## Research on Batch Inference Acceleration Method for Convolution on CPU Platforms  
-**University Innovation and Entrepreneurship Training Program** <div style="text-align: right;">*April 2023 – May 2024*</div>
+**University Innovation and Entrepreneurship Training Program** 
+April 2023 – May 2024
 - Focused on improving the batch processing of convolution and pooling operations to reduce cache misses and improve CPU computational efficiency.
 - Designed and implemented a new **Batched Data Layout Optimization (BDLO)** scheme, which optimized data layout and transformed multi-matrix computations into single-matrix and kernel calculations, reducing memory accesses.
 - Integrated the BDLO rearrangement into other operators in batch processing (e.g., Batch Normalization and Pooling), reducing performance overhead from separate rearrangement steps.
@@ -53,14 +54,16 @@ redirect_from:
 - Related research paper submitted: **"BDLO: Batched-Data-Layout-Optimization Method for Batched Im2col-based Convolution on CPUs"**.
 
 ## Deployment and Optimization of Inference Engine on cDSP Platform  
-**Collaboration with NIO Inc.**  <div style="text-align: right;">*February 2023 – May 2024*</div>
+**Collaboration with NIO Inc.**  
+February 2023 – May 2024
 - Deployed deep neural network models on NIO's in-vehicle chips (cDSP module) for use in the vehicle's voice system, optimizing the model for over a **40% reduction in inference time**.
 - Analyzed the operators and architecture of the HiFi-GAN model, evaluating performance on different platforms using tools like ONNX.
 - Used and modified the open-source MACE mobile framework to deploy the HiFi-GAN model on Snapdragon DSP modules.
 - Quantified model weights to int8 and employed optimization techniques such as operator fusion, reducing inference time by **up to 1.5x** for Transformer models.
 
 ## Zero-shot Driven Interactive Video Stream Object Removal  
-**Professional Practice and Training Course Development Project**  <div style="text-align: right;"> *June 2023 – August 2023*</div>  
+**Professional Practice and Training Course Development Project**  
+June 2023 – August 2023
 - Developed an automated system for object removal and restoration in video streams, reducing manual intervention and ensuring natural restoration results.
 - Combined advanced **automatic segmentation (SAM), mask propagation (AOT), and video restoration (E2FGVI)** techniques into an efficient, automated pipeline for object removal and repair.
 - Demonstrated the effectiveness of the system through various experiments, showcasing superior performance across different video materials.
