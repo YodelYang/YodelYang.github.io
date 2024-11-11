@@ -22,7 +22,7 @@ In this NIO joint project, deep learning models were deployed on the cDSP module
     Your browser does not support PDF viewing. Please download the file <a href="../files/Deployment and Optimization of Inference Engine on cDSP Platform/陈述答辩PPT.pdf">Click here to download the PDF</a>
 </iframe>
 
-### Project Report DOCX
+<!-- ### Project Report DOCX
 [Download Project Report (DOCX)](assets/files/project-report.docx)
 
 ### Project Video
@@ -32,4 +32,4 @@ In this NIO joint project, deep learning models were deployed on the cDSP module
 </video>
 
 ### Source Code
-[Download Source Code (ZIP)](assets/files/project-source-code.zip)
+[Download Source Code (ZIP)](assets/files/project-source-code.zip) -->
