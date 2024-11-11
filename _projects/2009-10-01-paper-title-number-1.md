@@ -1,12 +1,15 @@
 ---
-title: "Project Title Number 1"
+title: "Project Title"
 collection: projects
-category: research
-permalink: /project/2009-10-01-project-title-number-1
-excerpt: 'This project is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Company/Institution 1'
-projecturl: 'http://example.com/files/project1.pdf'
-slidesurl: 'http://example.com/files/slides1.pdf'
-citation: 'Your Name, You. (2009). &quot;Project Title Number 1.&quot; <i>Company/Institution 1</i>.'
+permalink: /project/project-title
+excerpt: 'This project is about ...'
+date: 2024-11-11
+link: 'http://example.com/project-link'
 ---
+
+This project explores ...
+
+You can find the project's full details [here](http://example.com/project-link).
+
+---
+

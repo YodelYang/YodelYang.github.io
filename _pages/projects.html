@@ -8,19 +8,7 @@ author_profile: true
 
 {% include base_path %}
 
-
+<!-- New style rendering without categories -->
 {% for project in site.projects reversed %}
-    {% if project.category != category[0] %}
-    {% continue %}
-    {% endif %}
-    {% unless title_shown %}
-    <h2>{{ category[1].title }}</h2><hr />
-    {% assign title_shown = true %}
-    {% endunless %}
-    {% include archive-single.html %}
+  {% include archive-single.html %}
 {% endfor %}
-
-
-
-
-
