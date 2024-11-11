@@ -19,7 +19,6 @@ This project addresses the long reuse distance problem in current batch processi
 
 ### Project Guide PDF
 <iframe src="../files/Research on Batch Inference Acceleration Method for CNN on CPU Platform/IEEE_Journals_and_Transactions.pdf" width="100%" height="600px">
-    Your browser does not support PDF viewing. Please download the file <a href="../files/Research on Batch Inference Acceleration Method for CNN on CPU Platform/IEEE_Journals_and_Transactions.pdf">Click here to download the PDF</a>
 </iframe>
 
 <!-- ### Project Report DOCX
