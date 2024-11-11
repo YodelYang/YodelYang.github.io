@@ -33,5 +33,5 @@ This project developed an automated method for object removal in video streams, 
 </video> -->
 
 #### Source Code
-[Download Source Code (ZIP)](/files/Zero-Shot Driven Interactive Object Removal in Video Streams/源代码.zip)
+[Download Source Code (ZIP)](../files/Zero-Shot Driven Interactive Object Removal in Video Streams/源代码.zip)
 
