@@ -2,42 +2,72 @@
 layout: default
 ---
 
+{% include base_path %}
+
 <div class="container">
   <div class="row">
     <!-- 左侧栏：显示作者信息 -->
     <aside class="col-md-3">
-      {% include author-profile.html %}
+      {% include sidebar.html %} <!-- 使用 sidebar.html 来显示作者信息等内容 -->
     </aside>
 
     <!-- 右侧栏：显示项目详细信息 -->
     <main class="col-md-9">
-      <h1>{{ page.title }}</h1>
-      <p><strong>发布日期:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
-      
-      <!-- 项目图片 -->
-      {% if page.image %}
-        <img src="{{ page.image }}" alt="{{ page.title }}" class="img-fluid">
-      {% endif %}
+      <div class="page__inner-wrap">
+        <header>
+          <!-- 项目标题 -->
+          <h1 class="page__title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
 
-      <!-- 项目简介 -->
-      {% if page.excerpt %}
-        <p>{{ page.excerpt }}</p>
-      {% endif %}
+          <!-- 发布日期 -->
+          {% if page.date %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 发布日期:</strong> 
+              <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+            </p>
+          {% endif %}
+        </header>
 
-      <!-- PDF 文件链接 -->
-      {% if page.pdf %}
-        <p><a href="{{ page.pdf }}" target="_blank">查看项目PDF文档</a></p>
-      {% endif %}
+        <!-- 项目图片 -->
+        {% if page.image %}
+          <div class="project-image">
+            <img src="{{ page.image }}" alt="{{ page.title }}" class="img-fluid">
+          </div>
+        {% endif %}
 
-      <!-- 项目超链接 -->
-      {% if page.link %}
-        <p><a href="{{ page.link }}" target="_blank">查看项目详情</a></p>
-      {% endif %}
+        <!-- 项目简介 -->
+        {% if page.excerpt %}
+          <p>{{ page.excerpt }}</p>
+        {% endif %}
 
-      <!-- 项目详细内容 -->
-      <div class="project-content">
-        {{ content }}
+        <!-- PDF 文件链接 -->
+        {% if page.pdf %}
+          <p><a href="{{ page.pdf }}" target="_blank">查看项目PDF文档</a></p>
+        {% endif %}
+
+        <!-- 项目外部链接 -->
+        {% if page.link %}
+          <p><a href="{{ page.link }}" target="_blank" class="btn">查看项目详情</a></p>
+        {% endif %}
+
+        <!-- 项目详细内容 -->
+        <section class="page__content" itemprop="text">
+          {{ content }}
+        </section>
+
+        <footer class="page__meta">
+          {% include page__taxonomy.html %}
+        </footer>
+
+        <!-- 社交分享按钮 (如果启用的话) -->
+        {% if page.share %}{% include social-share.html %}{% endif %}
+
+        <!-- 分页导航 -->
+        {% include post_pagination.html %}
       </div>
     </main>
   </div>
 </div>
+
+<!-- 评论部分（如果启用的话） -->
+{% if site.comments.provider and page.comments %}
+  {% include comments.html %}
+{% endif %}
